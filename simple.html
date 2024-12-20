@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        body{
+            background-color:bisque;
+        }
+        .con{
+            
+            display:flex;
+            align-items: center;
+            justify-content:center;
+            flex-direction: row;
+            height:400px;
+            width: 300px;
+            padding:50px;
+            border:3px solid red;
+            margin:auto;
+            background-color: aqua;
+            font-size: 20px;
+            gap:30px;
+            
+            color:red;
+        }
+       
+        
+        
+        h2{
+            color:red;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration:underline;
+        }
+        .con img{
+              height:80px;
+              width:80px;
+              
+              margin:auto;
+              border-radius:50%;
+              display:flex;
+              align-items: flex-start;
+              justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>Registration Form</h2>
+        
+    <div class="con">
+        
+
+        <form>
+            <img src="./1.jpg" alt="xyz"><br>
+        
+        <label>Name:</label>
+        <input type = "text" name="name" placeholder="Enter your name"><br>
+        <label>Course:</label>
+        <select>
+            <option value="B.Tech">B.Tech</option>
+            <option value="BSc">B.Sc</option>
+            <option value="BCA">BCA</option>
+            <option value = "B.Com">B.Com</option>
+            <option value="BA">BA</option>
+            <option value = "BBA">BBA</option>
+        </select><br>
+        <label>Phno:</label>
+        <input type = "phone" name="phone number" placeholder="Enter your phone number"><br>
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="Enter your email"><br>
+        <label>DOB:</label>
+        <input type="date" placeholder="Date of Birth" name="DOB"><br>
+        <label>Address:</label>
+        <textarea row="50" column="50">Address</textarea><br>
+        <label>Document:</label>
+        <input type = "file"><br>
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="Male">male
+        <input type = "radio" name="gender" value="Female">Female<br>
+        <label>Submit:</label>
+        <a href="website.html">Submit</a>
+        <label>Reset:</label>
+        <input type="reset">
+
+        </form>
+
+    </div>
+    
+</body>
+</html>
